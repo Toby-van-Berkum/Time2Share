@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline">Hello Projecto!</h1>
+    <main class="bg-slate-900">
+        <h1 class="text-3xl font-bold underline">Hello Projecto!</h1>
+    </main>
 </body>
 </html>
