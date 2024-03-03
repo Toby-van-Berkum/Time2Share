@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <main class="bg-slate-900">
+    <main class="bg-slate-200">
         <h1 class="text-3xl font-bold underline">Hello Projecto!</h1>
     </main>
 </body>
