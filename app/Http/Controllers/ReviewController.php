@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Review;
+use App\Models\Lending;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 

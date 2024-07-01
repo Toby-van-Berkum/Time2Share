@@ -35,7 +35,7 @@
         @else
             <h1 class="text-3xl font-bold underline">Hello, Guest!</h1>
         @endif
-        {{-- @include('products.create') --}}
+        @include('products.index')
     </main>
 </body>
 </html>

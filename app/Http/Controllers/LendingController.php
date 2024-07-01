@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Lending;
+use App\Models\Product;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class LendingController extends Controller
 {
     public function create(Product $product) {
+        $lendings = Lending::all();
         return view('lendings.create', compact('product'));
     }
 
